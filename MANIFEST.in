@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include multisite *.css
+recursive-include multisite *.csv
+recursive-include multisite *.html
+recursive-include multisite *.ico
+recursive-include multisite *.js
+recursive-include multisite *.json
+recursive-include multisite *.md
+recursive-include multisite *.png
+recursive-include multisite *.py
+recursive-include multisite *.svg
+recursive-include multisite *.txt
+recursive-exclude multisite *.pyc
